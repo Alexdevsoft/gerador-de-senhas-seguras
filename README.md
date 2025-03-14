@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Gerador de Senhas Seguras
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)](https://learn.microsoft.com/pt-br/windows/dev-environment/javascript/react-on-windows)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Available Scripts
+![](https://i.postimg.cc/G2kKfH38/gerador-de-senha.jpg)  
+_Capture a imagem acima é um placeholder. Substitua por uma captura de tela do seu projeto._
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Descrição
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O **Gerador de Senhas Seguras** é uma aplicação web construída com **React.js** que permite aos usuários criar senhas personalizadas e seguras. Com esta ferramenta, você pode ajustar o comprimento da senha e escolher quais tipos de caracteres incluir (letras maiúsculas, minúsculas, números e símbolos). Além disso, a senha gerada pode ser facilmente copiada para a área de transferência.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Geração de senhas personalizadas**: Escolha o comprimento e os tipos de caracteres desejados.
+- **Interface intuitiva**: Interface moderna e responsiva, fácil de usar.
+- **Cópia para a área de transferência**: Copie a senha gerada com apenas um clique.
+- **Validação de entrada**: Alertas para garantir que pelo menos uma opção seja selecionada antes de gerar a senha.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js**: Framework/biblioteca para construção da interface de usuário.
+- **CSS**: Estilização personalizada para um design limpo e moderno.
+- **JavaScript**: Lógica para geração de senhas aleatórias.
+- **HTML**: Estrutura básica da página.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Como Usar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+   ```
+2. Instale as dependências :
+Certifique-se de ter o Node.js instalado. Em seguida, execute:
+```bash
+  npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Execute o projeto :
+Inicie o servidor de desenvolvimento:
+```bash
+  npm start
+```
+4. Acesse a aplicação :
+Abra o navegador e acesse http://localhost:3000 .
+Use o gerador :
+- Ajuste o comprimento da senha usando o campo numérico.
+- Selecione as opções desejadas (letras maiúsculas, minúsculas, números e símbolos).
+- Clique em "Gerar Senha" para criar uma nova senha.
+- Clique em "Copiar" para copiar a senha para a área de transferência.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Autor**
+**Nome** : Alexsandro Almeida
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**GitHub** : [Alexdevsoft](https://github.com/Alexdevsoft)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**LinkedIn** : [Meu LinkedIn](www.linkedin.com/in/alexsandro-j-a-almeida)
