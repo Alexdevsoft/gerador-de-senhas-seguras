@@ -38,7 +38,7 @@ O **Gerador de Senhas Seguras** é uma aplicação web construída com **React.j
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Alexdevsoft/gerador-de-senhas-seguras.git
    cd nome-do-repositorio
    ```
 2. Instale as dependências :
